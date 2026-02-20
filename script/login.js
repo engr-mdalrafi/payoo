@@ -14,7 +14,7 @@ document.getElementById('login-btn')
         // console.log(loginPin);
         
         // 3- match the pin & mobile number
-        if(mobileNumber =='01835432498' && loginPin == '1234'){
+        if((mobileNumber =='01835432498' || mobileNumber == '01607382047') && loginPin == '1234'){
             // 3-1 true::>> alert > homepage
             alert('Login Success');
             window.location.assign('/home.html')
